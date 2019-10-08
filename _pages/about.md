@@ -1,15 +1,14 @@
 ---
 permalink: /
 title: "Quantitative science of a changing Earth"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 header:
-  overlay_image: https://bodobookhagen.github.io/images/Kailash_title_clip.jpg
+  overlay_image: https://david-loibl.github.io/images/header-rock-glacier-kyrgyzstan.jpg.jpg
   overlay_filter: 0.5
-  caption: "Kinnaur Kailash by [Bodo Bookhagen](https://bodobookhagen.github.io/)"
+  caption: "Rock glacier in the Kyrgyz Tien Shan, David Loibl 2018"
 ---
 
 ## Intro
