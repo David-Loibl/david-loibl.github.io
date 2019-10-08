@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 header:
-  overlay_image: https://david-loibl.github.io/images/header-rock-glacier-kyrgyzstan.jpg
+  overlay_image: https://david-loibl.github.io/images/header-sentinel-1-insar-mongolia.jpg
   overlay_filter: 0.5
   caption: "Turgen region, Mongolia, July 2017, as seen in Sentinel-1 amplitude (left), coherence (center), and line-of-sight-displacement (right)"
 ---
