@@ -1,11 +1,14 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
+
+{% include base_path %}
+
 
 Current Address: **Climate Geography, Geography Department, Humboldt-Universität zu Berlin,
 Unter den Linden 6, 10099 Berlin, Germany**
@@ -23,5 +26,4 @@ Unter den Linden 6, 10099 Berlin, Germany**
 | Aug 2006 -- Jul 2010 | Research assistant, Dept. of Geography, RWTH Aachen University |
 | 2000 -- 2003 | Programmer and designer, Bauer and Kirch GmbH, Monschau / Aachen |
 
- 
 
