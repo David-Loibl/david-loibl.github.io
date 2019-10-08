@@ -81,7 +81,7 @@ social:
 # Site Author
 author:
   name             : "David Loibl"
-  avatar           : "nomadic-geomorphologist.jpg"
+  avatar           : "https://raw.githubusercontent.com/David-Loibl/david-loibl.github.io/master/images/nomadic-geomorphologist.jpg"
   bio              : "Climate change geomorphologist"
   location         : "Geography Department"
   employer         : "Humboldt University, Berlin"
