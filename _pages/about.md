@@ -6,6 +6,10 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header:
+  overlay_image: https://bodobookhagen.github.io/images/Kailash_title_clip.jpg
+  overlay_filter: 0.5
+  caption: "Kinnaur Kailash by [Bodo Bookhagen](https://bodobookhagen.github.io/)"
 ---
 
 ## Intro

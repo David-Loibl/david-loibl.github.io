@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : # David Loibl | Earth Data Science
+title                    : "David Loibl" # Earth Data Science
 title_separator          : "-"
 name                     : &name "David Loibl"
 description              : Climate change geomorphologist
@@ -80,7 +80,7 @@ social:
 
 # Site Author
 author:
-  name             : "David Loibl"
+  name             : # "David Loibl"
   avatar           : "https://raw.githubusercontent.com/David-Loibl/david-loibl.github.io/master/images/nomadic-geomorphologist.jpg"
   bio              : "Global change geomorphologist"
   location         : "Geography Department"
