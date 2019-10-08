@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: https://david-loibl.github.io/images/header-rock-glacier-kyrgyzstan.jpg.jpg
+  overlay_image: https://david-loibl.github.io/images/header-rock-glacier-kyrgyzstan.jpg
   overlay_filter: 0.5
   caption: "Rock glacier in the Kyrgyz Tien Shan, David Loibl 2018"
 ---
