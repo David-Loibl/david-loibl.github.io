@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : David Loibl | Earth Data Science
+title                    : # David Loibl | Earth Data Science
 title_separator          : "-"
 name                     : &name "David Loibl"
 description              : Climate change geomorphologist
@@ -82,9 +82,9 @@ social:
 author:
   name             : "David Loibl"
   avatar           : "https://raw.githubusercontent.com/David-Loibl/david-loibl.github.io/master/images/nomadic-geomorphologist.jpg"
-  bio              : "Climate change geomorphologist"
+  bio              : "Global change geomorphologist"
   location         : "Geography Department"
-  employer         : "Humboldt University, Berlin"
+  employer         : "Humboldt-Univ. zu Berlin"
   googlescholar    : "https://scholar.google.com/citations?user=_UuIymgAAAAJ&hl=en"
   email            : "david.loibl@geo.hu-berlin.de"
   researchgate     : "https://www.researchgate.net/profile/David_Loibl"
@@ -179,9 +179,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -225,15 +222,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+
   # _talks
   - scope:
       path: ""
