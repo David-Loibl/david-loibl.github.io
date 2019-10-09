@@ -5,11 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-% The following represents a brief selection of works.
-
-{% if author.orcid %}
-  Please refer to my accounts at [OrcID]({{author.orcid}}), [OrcID]({{author.researchgate}}) or [OrcID]({{author.googlescholar}}) for regularly updated lists of publications.
-{% endif %}
+*The following represents a brief selection of works.*
+*Please refer to my accounts at [OrcID]({{author.orcid}}), [OrcID]({{author.researchgate}}) or [OrcID]({{author.googlescholar}}) for regularly updated lists of publications.*
 
 Loibl, D., Bookhagen, B., Valade, S. and Schneider, C.: [OSARIS, the “Open Source SAR Investigation System” for Automatized Parallel InSAR Processing of Sentinel-1 Time Series Data With Special Emphasis on Cryosphere Applications](https://doi.org/10.3389/feart.2019.00172), Front. Earth Sci., 7(172), 1–20, doi:[10.3389/feart.2019.00172](https://doi.org/10.3389/feart.2019.00172), 2019.
 

@@ -17,17 +17,17 @@ header:
 * Changes in Earth surface processes since the Little Ice Age and projections in the context of future warming
 * Topoclimatic forcing in high mountain environments and their role in controlling sensititve process-response systems
 
-# Methods
+## Methods
 * Remote sensing: SAR interferometry, multispectral satellite imagery, UAV-based strucutre-from-motion, LiDAR
 * GIS: DEM-based spatial analysis, Google Earth Engine processing
 * Computing: Python-based data analysis, parallelized high-performance computing
 * Field methods: geomorphological mapping, sedimentology, land form dating, meteorological measurements, drone flights
 
-# Focus regions
+## Focus regions
 * High Mountain Asia: Tibet, Tien Shan, Himalayas
 * Central Europe
 
-## Research project
+## Research projects
 * [TopoCliF](https://www.geographie.hu-berlin.de/en/professorships/climate_geography/research-2/climate-change-and-cryosphere-research/topoclif?set_language=en) - Topoclimatic forcing and non-linear dynamics in the climate change adaption of glaciers in High Mountain Asia, funded by [DFG](https://www.dfg.de/en/index.jsp), 2018-2020
 * [MORSANAT](https://www.geographie.hu-berlin.de/en/professorships/climate_geography/research-2/climate-change-and-cryosphere-research/morsanat) - Model- and remote sensing-based analysis of glacier-related natural hazards in the Tien Shan mountains, funded by [Geo.X](https://www.dfg.de/en/index.jsp), 2016-2018
 
