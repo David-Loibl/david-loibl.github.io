@@ -31,14 +31,26 @@ Global change adaptation of land systems, big geodata and machine learning tools
 ## Professional Qualifications 
 
 | 2018 | Certified UAV pilot |
-| 2000-2003 | Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen |
+| 2000 --2003 | Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen |
 
 
 
 <table>
-	<tr colspan="2">
-	  <td>## Awards, Honors, important Functions</td>
+	<th rowspan="2">
+	  <td>Professional Qualifications </td>
+	</th>
+	<tr>
+	  <td>2018</td>
+	  <td>Certified UAV pilot</td>
 	</tr>
+	<tr>
+	  <td>2000 -- 2003 </td>
+	  <td>Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen</td>
+	</tr>
+	
+	<th rowspan="2">
+	  <td>Awards, Honors, important Functions</td>
+	</th>
 	<tr>
 	  <td>2018</td>
 	  <td>Winner of the Geo.X Geo.DataScience Hackathon 2018</td>
