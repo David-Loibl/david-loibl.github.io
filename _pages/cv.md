@@ -31,20 +31,38 @@ Global change adaptation of land systems, big geodata and machine learning tools
 | Aug 2006 -- Jul 2010 | Research assistant, Dept. of Geography, RWTH Aachen University |
 
 ## Professional Qualifications 
-| Year |  |
-| :--- | :--- |
+
 | 2018 | Certified UAV pilot |
 | 2000-2003 | Vocational training, digital media design and programming, 
 Bauer & Kirch GmbH, Monschau and Aachen |
 
-## Awards, Honors, important Functions
-| Year |  |
-| :--- | :--- |
-| 2018 | Winner of the Geo.X Geo.DataScience Hackathon 2018 |
-| 2018 | IRI THESys Postdoc Network founding member |
-| 2017 | Founding member of cryo-tools.org community |
-| 2016 | Geo.X Geo.DataScience Young Academy Fellowship |
-| 2016 | Borchers Medal for excellent Ph.D. thesis |
+
+
+<table>
+	<tr colspan="2">
+	  <td>## Awards, Honors, important Functions</td>
+	</tr>
+	<tr>
+	  <td>2018</td>
+	  <td>Winner of the Geo.X Geo.DataScience Hackathon 2018</td>
+	</tr>
+	<tr>
+	  <td>2018</td>
+	  <td>IRI THESys Postdoc Network founding member</td>
+	</tr>
+	<tr>
+	  <td>2017</td>
+	  <td>Founding member of cryo-tools.org community</td>
+	</tr>
+	<tr>
+	  <td>2016</td>
+	  <td>Geo.X Geo.DataScience Young Academy Fellowship</td>
+	</tr>
+	<tr>
+	  <td>2016</td>
+	  <td>Borchers Medal for excellent Ph.D. thesis</td>
+	</tr>
+</table>
 
 ## Reviewer for ...
 - Climate of the Past
