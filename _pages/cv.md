@@ -16,14 +16,12 @@ Unter den Linden 6, 10099 Berlin, Germany
 Global change adaptation of land systems, big geodata and machine learning tools, spatial and time series analysis, InSAR and optical remote sensing, forcing-response systems and sensitivity analysis, scientific programming and high-performance computing
 
 ## Academic Education
-| Year |  |
-| :--- | :--- |
+
 | 2010-2015 | Dr. rer. nat. (summa cum laude); RWTH Aachen University |
 | 2004-2010 | M.A. Geography, Geology, Political science; RWTH Aachen University |
 
 ## Professional Career
-| Year |  |
-| :--- | :--- |
+
 | Since Jan 2018 | Postdoctoral researcher (principal investigator of own project), Climate Georgraphy, Humboldt-Universität zu Berlin |
 | Dec 2016 -- Dec 2017 | Postdoctoral Fellow of the Geo.X Geo.DataScience Young Academy, Climate Georgraphy, Humboldt-Universität zu Berlin |
 | Nov 2014 -- Nov 2015 | Commissioner for ‘Blended Learning’ at the Devision of Geoscience and Geography, RWTH Aachen University |
@@ -33,8 +31,7 @@ Global change adaptation of land systems, big geodata and machine learning tools
 ## Professional Qualifications 
 
 | 2018 | Certified UAV pilot |
-| 2000-2003 | Vocational training, digital media design and programming, 
-Bauer & Kirch GmbH, Monschau and Aachen |
+| 2000-2003 | Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen |
 
 
 
