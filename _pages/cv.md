@@ -7,16 +7,57 @@ redirect_from:
   - /resume
 ---
 
-## Current work address: 
-Climate Geography, Geography Department, Humboldt-Universität zu Berlin,
-Unter den Linden 6, 10099 Berlin, Germany
-
-## Research Interests
-
-Global change adaptation of land systems, big geodata and machine learning tools, spatial and time series analysis, InSAR and optical remote sensing, forcing-response systems and sensitivity analysis, scientific programming and high-performance computing
-
+## Dr. David Loibl
 
 <table>
+  <thead>
+	<tr>
+	  <th colspan="2"><h3>Personal</h3></th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+	  <td style="white-space: nowrap;">Date of birth</td>
+	  <td>February 22, 1980</td>
+	</tr>
+	<tr>
+	  <td style="white-space: nowrap;">Work address</td>
+	  <td>Humboldt-Universität zu Berlin
+	  Geography Department
+	  Unter den Linden 6
+	  D-10099 Berlin</td>
+	</tr>
+	<tr>
+	  <td style="white-space: nowrap;">Current position</td>
+	  <td>Postdoctoral researcher (principal investigator)</td>
+	</tr>
+	<tr>
+	  <td style="white-space: nowrap;">Period of care-taking </td>
+	  <td>13 months parental leave, Dec 2015 -- Nov 2016</td>
+	</tr>
+  </tbody>
+  
+  <thead>
+	<tr>
+	  <th colspan="2"><h3>Research Interests</h3></th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+	  <td style="white-space: nowrap;"></td>
+	  <td>
+	    <ul>
+	      <li>Global change adaptation of land systems</li>
+	      <li>Big geodata and machine learning tools</li>
+	      <li>Spatial and time series analysis</li>
+	      <li>InSAR and optical remote sensing</li>
+	      <li>Forcing-response systems and sensitivity analysis</li>
+	      <li>Scientific programming and high-performance computing</li>
+	    </ul>
+	  </td>
+	</tr>
+  </tbody>
+  
   <thead>
 	<tr>
 	  <th colspan="2"><h3>Academic Education</h3></th>
@@ -103,19 +144,33 @@ Global change adaptation of land systems, big geodata and machine learning tools
 	  <td>Borchers Medal for excellent Ph.D. thesis</td>
 	</tr>
   </tbody>
+  
+  <thead>
+	<tr>
+	  <th colspan="2"><h3>Reviewer for ...</h3></th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+	  <td style="white-space: nowrap;"></td>
+	  <td>
+	    <ul>
+	      <li>Climate of the Past</li>
+	      <li>Frontiers in Earth Sciences (Review Editor)</li>
+	      <li>Geology</li>
+	      <li>Geomorphology</li>
+	      <li>Geosciences</li>
+	      <li>Journal of Geophysics & Remote Sensing</li>
+	      <li>Journal of Glaciology</li>
+	      <li>Journal of Maps</li>
+	      <li>Jounral of Quaternary Sciences</li>
+	      <li>Quarternary International</li>
+	      <li>Quaternary Science Reviews</li>
+	      <li>Remote Sensing</li>
+	      <li>The Cryosphere</li>
+	    </ul>
+	  </td>
+	</tr>
+  </tbody>
 </table>
 
-## Reviewer for ...
-- Climate of the Past
-- Frontiers in Earth Sciences (Review Editor)
-- Geology
-- Geomorphology
-- Geosciences
-- Journal of Geophysics & Remote Sensing
-- Journal of Glaciology
-- Journal of Maps
-- Jounral of Quaternary Sciences
-- Quarternary International
-- Quaternary Science Reviews	
-- Remote Sensing
-- The Cryosphere
