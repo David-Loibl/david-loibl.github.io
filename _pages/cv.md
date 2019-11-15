@@ -37,7 +37,7 @@ Global change adaptation of land systems, big geodata and machine learning tools
 
 <table>
 	<th>
-	  <td rowspan="2">Professional Qualifications </td>
+	  <td colspan="2"><h3>Professional Qualifications</h3></td>
 	</th>
 	<tr>
 	  <td>2018</td>
@@ -49,7 +49,7 @@ Global change adaptation of land systems, big geodata and machine learning tools
 	</tr>
 	
 	<tr>
-	  <td rowspan="2"><h3>Awards, Honors, important Functions</h3></td>
+	  <td colspan="2"><h3>Awards, Honors, important Functions</h3></td>
 	</tr>
 	<tr>
 	  <td>2018</td>
