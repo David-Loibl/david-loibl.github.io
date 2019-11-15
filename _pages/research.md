@@ -9,8 +9,6 @@ header:
   caption: "Turgen region, Mongolia, July 2017, as seen in Sentinel-1 amplitude (left), coherence (center), and line-of-sight-displacement (right)"
 ---
 
-*Under conctruction*
-
 ## Topics
 
 * Climate change adaptation of mountain glaciers, particularly morphometry, changes in volume and velocity, mass balances, transient snow line and equillibrium line altitude measurements
