@@ -36,9 +36,9 @@ Global change adaptation of land systems, big geodata and machine learning tools
 
 
 <table>
-	<th>
-	  <td colspan="2"><h3>Professional Qualifications</h3></td>
-	</th>
+	<tr>
+	  <th colspan="2">Professional Qualifications</th>
+	</tr>
 	<tr>
 	  <td>2018</td>
 	  <td>Certified UAV pilot</td>
