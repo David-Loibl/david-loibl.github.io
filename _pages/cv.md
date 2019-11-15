@@ -36,8 +36,8 @@ Global change adaptation of land systems, big geodata and machine learning tools
 
 
 <table>
-	<th rowspan="2">
-	  <td>Professional Qualifications </td>
+	<th>
+	  <td rowspan="2">Professional Qualifications </td>
 	</th>
 	<tr>
 	  <td>2018</td>
@@ -48,9 +48,9 @@ Global change adaptation of land systems, big geodata and machine learning tools
 	  <td>Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen</td>
 	</tr>
 	
-	<th rowspan="2">
-	  <td>Awards, Honors, important Functions</td>
-	</th>
+	<tr>
+	  <td rowspan="2"><h3>Awards, Honors, important Functions</h3></td>
+	</tr>
 	<tr>
 	  <td>2018</td>
 	  <td>Winner of the Geo.X Geo.DataScience Hackathon 2018</td>
