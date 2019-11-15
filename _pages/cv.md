@@ -36,9 +36,12 @@ Global change adaptation of land systems, big geodata and machine learning tools
 
 
 <table>
+  <thead>
 	<tr>
 	  <th colspan="2">Professional Qualifications</th>
 	</tr>
+  </thead>
+  <tbody>
 	<tr>
 	  <td>2018</td>
 	  <td>Certified UAV pilot</td>
@@ -47,10 +50,13 @@ Global change adaptation of land systems, big geodata and machine learning tools
 	  <td>2000 -- 2003 </td>
 	  <td>Vocational training, digital media design and programming, Bauer & Kirch GmbH, Monschau and Aachen</td>
 	</tr>
-	
+  </tbody>
+  <thead>	
 	<tr>
 	  <td colspan="2"><h3>Awards, Honors, important Functions</h3></td>
 	</tr>
+  </thead>
+  <tbody>
 	<tr>
 	  <td>2018</td>
 	  <td>Winner of the Geo.X Geo.DataScience Hackathon 2018</td>
@@ -71,6 +77,7 @@ Global change adaptation of land systems, big geodata and machine learning tools
 	  <td>2016</td>
 	  <td>Borchers Medal for excellent Ph.D. thesis</td>
 	</tr>
+  </tbody>
 </table>
 
 ## Reviewer for ...
