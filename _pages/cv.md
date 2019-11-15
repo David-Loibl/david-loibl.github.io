@@ -22,9 +22,9 @@ redirect_from:
 	</tr>
 	<tr>
 	  <td style="white-space: nowrap;">Work address</td>
-	  <td>Humboldt-Universität zu Berlin
-	  Geography Department
-	  Unter den Linden 6
+	  <td>Humboldt-Universität zu Berlin<br>
+	  Geography Department<br>
+	  Unter den Linden 6<br>
 	  D-10099 Berlin</td>
 	</tr>
 	<tr>
