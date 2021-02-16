@@ -1,0 +1,206 @@
+---
+title: 'Geocoding and orthorectifying Pleiades satellite imagery'
+date: 9999-12-31
+permalink: /posts/todo/pleiades-image-processing/
+tags:
+  - satellite
+  - image
+  - processing
+  - geocoding
+  - orthorectification
+  - tutorial
+---
+
+# File structure
+
+```console
+TPP1601027306/
+├── DELIVERY.PDF
+├── IMG_PHR1A_MS_003
+│   ├── DIM_PHR1A_MS_201808050549248_SEN_3348938101-003.XML
+│   ├── ICON_PHR1A_MS_201808050549248_SEN_3348938101-003.JPG
+│   ├── IMG_PHR1A_MS_201808050549248_SEN_3348938101-003_R1C1.J2W
+│   ├── IMG_PHR1A_MS_201808050549248_SEN_3348938101-003_R1C1.JP2
+│   ├── INDEX.HTM
+│   ├── LIBRARY
+│   │   ├── LOGO.JPG
+│   │   └── STYLE.XSL
+│   ├── LINEAGE
+│   │   ├── PROCESSING_PHR1A_MS_201808050549248_SEN_3348938101-003_DIM.XML
+│   │   └── STRIP_DS_PHR1A_201808050549248_FR1_PX_E076N41_0102_01200_DIM.XML
+│   ├── MASKS
+│   │   ├── CLD_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   ├── DET_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   ├── QTE_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   ├── ROI_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   ├── SLT_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   ├── SNW_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   │   └── VIS_PHR1A_MS_201808050549248_SEN_3348938101-003_MSK.GML
+│   ├── PREVIEW_PHR1A_MS_201808050549248_SEN_3348938101-003.JPG
+│   ├── PREVIEW_PHR1A_MS_201808050549248_SEN_3348938101-003.KMZ
+│   └── RPC_PHR1A_MS_201808050549248_SEN_3348938101-003.XML
+├── IMG_PHR1A_MS_004
+│   ├── DIM_PHR1A_MS_201808050550015_SEN_3348938101-004.XML
+│   ├── ICON_PHR1A_MS_201808050550015_SEN_3348938101-004.JPG
+│   ├── IMG_PHR1A_MS_201808050550015_SEN_3348938101-004_R1C1.J2W
+│   ├── IMG_PHR1A_MS_201808050550015_SEN_3348938101-004_R1C1.JP2
+│   ├── INDEX.HTM
+│   ├── LIBRARY
+│   │   ├── LOGO.JPG
+│   │   └── STYLE.XSL
+│   ├── LINEAGE
+│   │   ├── PROCESSING_PHR1A_MS_201808050550015_SEN_3348938101-004_DIM.XML
+│   │   └── STRIP_DS_PHR1A_201808050550015_FR1_PX_E076N41_0102_01240_DIM.XML
+│   ├── MASKS
+│   │   ├── CLD_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   ├── DET_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   ├── QTE_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   ├── ROI_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   ├── SLT_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   ├── SNW_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   │   └── VIS_PHR1A_MS_201808050550015_SEN_3348938101-004_MSK.GML
+│   ├── PREVIEW_PHR1A_MS_201808050550015_SEN_3348938101-004.JPG
+│   ├── PREVIEW_PHR1A_MS_201808050550015_SEN_3348938101-004.KMZ
+│   └── RPC_PHR1A_MS_201808050550015_SEN_3348938101-004.XML
+├── IMG_PHR1A_P_001
+│   ├── DIM_PHR1A_P_201808050549248_SEN_3348938101-001.XML
+│   ├── ICON_PHR1A_P_201808050549248_SEN_3348938101-001.JPG
+│   ├── IMG_PHR1A_P_201808050549248_SEN_3348938101-001_R1C1.J2W
+│   ├── IMG_PHR1A_P_201808050549248_SEN_3348938101-001_R1C1.JP2
+│   ├── INDEX.HTM
+│   ├── LIBRARY
+│   │   ├── LOGO.JPG
+│   │   └── STYLE.XSL
+│   ├── LINEAGE
+│   │   ├── PROCESSING_PHR1A_P_201808050549248_SEN_3348938101-001_DIM.XML
+│   │   └── STRIP_DS_PHR1A_201808050549248_FR1_PX_E076N41_0102_01200_DIM.XML
+│   ├── MASKS
+│   │   ├── CLD_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   ├── DET_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   ├── QTE_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   ├── ROI_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   ├── SLT_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   ├── SNW_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   │   └── VIS_PHR1A_P_201808050549248_SEN_3348938101-001_MSK.GML
+│   ├── PREVIEW_PHR1A_P_201808050549248_SEN_3348938101-001.JPG
+│   ├── PREVIEW_PHR1A_P_201808050549248_SEN_3348938101-001.KMZ
+│   └── RPC_PHR1A_P_201808050549248_SEN_3348938101-001.XML
+├── IMG_PHR1A_P_002
+│   ├── DIM_PHR1A_P_201808050550015_SEN_3348938101-002.XML
+│   ├── ICON_PHR1A_P_201808050550015_SEN_3348938101-002.JPG
+│   ├── IMG_PHR1A_P_201808050550015_SEN_3348938101-002_R1C1.J2W
+│   ├── IMG_PHR1A_P_201808050550015_SEN_3348938101-002_R1C1.JP2
+│   ├── INDEX.HTM
+│   ├── LIBRARY
+│   │   ├── LOGO.JPG
+│   │   └── STYLE.XSL
+│   ├── LINEAGE
+│   │   ├── PROCESSING_PHR1A_P_201808050550015_SEN_3348938101-002_DIM.XML
+│   │   └── STRIP_DS_PHR1A_201808050550015_FR1_PX_E076N41_0102_01240_DIM.XML
+│   ├── MASKS
+│   │   ├── CLD_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   ├── DET_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   ├── QTE_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   ├── ROI_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   ├── SLT_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   ├── SNW_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   │   └── VIS_PHR1A_P_201808050550015_SEN_3348938101-002_MSK.GML
+│   ├── PREVIEW_PHR1A_P_201808050550015_SEN_3348938101-002.JPG
+│   ├── PREVIEW_PHR1A_P_201808050550015_SEN_3348938101-002.KMZ
+│   └── RPC_PHR1A_P_201808050550015_SEN_3348938101-002.XML
+├── INDEX.HTM
+├── LIBRARY
+│   ├── LOGO.JPG
+│   └── VOL_STYL.XSL
+└── VOL_PHR.XML
+
+```
+
+# Geocoding
+
+Along a wealth of other information, the 'DIM*' XML file in the image directory contains precise data on the scene extent.
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="LIBRARY/STYLE.XSL" type="text/xsl"?>
+<Dimap_Document>
+  [...]
+  <Dataset_Content>
+    <SURFACE_AREA unit="square km">98.2164</SURFACE_AREA>
+    <CLOUD_COVERAGE unit="percent">0</CLOUD_COVERAGE>
+    <SNOW_COVERAGE unit="percent">99.99</SNOW_COVERAGE>
+    <Dataset_Components>
+      [...]
+    </Dataset_Components>
+    <Dataset_Extent>
+      <EXTENT_TYPE>Bounding_Polygon</EXTENT_TYPE>
+      <Vertex>
+        <LON>75.96676745364648</LON>
+        <LAT>41.1052801165846</LAT>
+        <COL>1</COL>
+        <ROW>1</ROW>
+      </Vertex>
+      <Vertex>
+        <LON>76.10214538072394</LON>
+        <LAT>41.11056349896829</LAT>
+        <COL>21058</COL>
+        <ROW>1</ROW>
+      </Vertex>
+      <Vertex>
+        <LON>76.10343005626817</LON>
+        <LAT>40.99145210191315</LAT>
+        <COL>21058</COL>
+        <ROW>25483</ROW>
+      </Vertex>
+      <Vertex>
+        <LON>75.96920627776313</LON>
+        <LAT>40.98608444761431</LAT>
+        <COL>1</COL>
+        <ROW>25483</ROW>
+      </Vertex>
+      <Center>
+        <LON>76.03538729210044</LON>
+        <LAT>41.04834504127009</LAT>
+        <COL>10530</COL>
+        <ROW>12742</ROW>
+      </Center>
+    </Dataset_Extent>
+    [...]
+  </Dataset_Content>
+</Dimap_Document>
+```
+
+We can use this information and the GDAL tool `gdal_translate` to geocode the file. The `gdal_translate` option `-a_ullr` allows assigning georeferenced bounds, requiering boundary box coordinates as parameters. However, attributing the correct coordinates is the hardest part, here, since the notion from the man page `ulx uly lrx lry` (ul = upper left, lr = lower right) does not translate easily into latitude and longitude values. 
+
+In the following, it is assumed that `${scene_file}` refers to the file name of the JP2 file you want to geocode.
+```console
+gdal_translate <input_file> -a_ullr <lon_min> <lat_max> <lon_max> <lat_min> <output_file>
+```
+
+
+<LON>75.96676745364648</LON>
+        <LAT>41.1052801165846</LAT>
+        <COL>1</COL>
+        <ROW>1</ROW>
+      </Vertex>
+      <Vertex>
+        <LON>76.10214538072394</LON>
+        <LAT>41.11056349896829</LAT>
+        <COL>21058</COL>
+        <ROW>1</ROW>
+      </Vertex>
+      <Vertex>
+        <LON>76.10343005626817</LON>
+        <LAT>40.99145210191315</LAT>
+        
+```console
+gdal_translate ${scene_file -a_ullr 75.96676745364648 41.10527346486531 40.99145210191315 76.10343005626817 ../../IMG_PHR1A_MS_201808050549248_SEN_3348938101-003_R1C1.JP2
+```
+
+# Orthorectification
+
+```console
+gdalwarp -multi -wo NUM_THREADS=ALL_CPUS -co NUM_THREADS=ALL_CPUS --config GDAL_CACHEMAX 1536 -wm 1536 -rpc -to RPC_DEM=${DEM_FILE} -of GTiff -te ${aoi_coords} ${inFile} ${outFile}
+```
+(StackExchange)[https://gis.stackexchange.com/questions/259604/terrain-correction-orthorectification-with-gdal].
+
