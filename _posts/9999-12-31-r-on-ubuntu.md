@@ -76,7 +76,10 @@ $ sudo apt-get install libcurl4-openssl-dev
 $ sudo apt-get install libssl-dev
 $ sudo apt-get install libxml2-dev
 $ sudo apt-get install libudunits2-dev
-$ sudo apt install libgdal-dev
+$ sudo apt-get install libgdal-dev
+$ sudo apt-get install cargo
+$ sudo apt-get install libfontconfig1-dev
+$ sudo apt-get install libcairo2-dev
 ```
 
 # Install RStudio
